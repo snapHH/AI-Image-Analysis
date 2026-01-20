@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 
-genai.configure(api_key=os.getenv("AIzaSyAMgX92z3SZ2OV-MyhotPpMWosF9OFr81c"))
+genai.configure(api_key=os.getenv("api key"))
 
 def run_genai_reasoning(features: dict):
     """
